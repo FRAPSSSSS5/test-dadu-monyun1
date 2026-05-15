@@ -24,19 +24,19 @@
 
     <!-- TITLE -->
     <div class="title-section">
-      <div class="game-title">Lve Dice Color</div>
+      <div class="game-title">Live Dice Color</div>
       <div class="title-stars">★ ★ ★ ★ ★</div>
     </div>
 
     <!-- CONTROLS -->
     <div class="controls-row">
       <div class="select-wrapper">
-        <label>⚄ JUMLAH DADU</label>
+        <label>⚄ JUMLAH WARNA</label>
         <select class="styled-select" id="numDiceSelect" onchange="updateNumDice()">
-          <option value="1">1 DADU</option>
-          <option value="2" selected>2 DADU</option>
-          <option value="3">3 DADU</option>
-          <option value="4">4 DADU</option>
+          <option value="1">1 WARNA</option>
+          <option value="2" selected>2 WARNA</option>
+          <option value="3">3 WARNA</option>
+          <option value="4">4 WARNA</option>
         </select>
       </div>
       <div class="select-wrapper">
@@ -50,15 +50,15 @@
     <!-- DICE AREA -->
     <div class="dice-area" id="diceArea">
       <div class="dice-container" id="diceContainer">
-        <div class="dice-placeholder">Tekan GULIR untuk mulai!</div>
+        <div class="dice-placeholder">Tekan SPIN untuk mulai!</div>
       </div>
     </div>
 
-    <div class="rolling-text" id="rollingText">🎲 Mengocok dadu... 🎲</div>
+    <div class="rolling-text" id="rollingText"> Mengocok Warna... </div>
 
     <!-- ROLL BUTTON -->
     <button class="roll-btn" id="rollBtn" onclick="rollDice()">
-      <span class="btn-icon">🎲</span> GULIR LAGI!
+      <span class="btn-icon"></span> SPIN LAGI!
     </button>
 
     <!-- COLOR INFO -->
